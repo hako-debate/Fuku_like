@@ -1,4 +1,4 @@
-Fuku_like v0.3  
+Fuku_like v0.1  
 Chrome拡張機能
 
 福知山公立大学メディアセンターOPACサービスのサイトにお気に入り機能を追加するChrome拡張機能です.  
