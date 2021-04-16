@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Fuku_like",
+    "version": "0.3",
+
+    "content_scripts": [
+    {
+       "matches": ["https://www3.fukuchiyama.ac.jp/opac4/opac/*"],
+       "js": ["script1.js"]
+    },
+    {
+       "matches": ["https://www3.fukuchiyama.ac.jp/opac4/opac/Holding_list?rgtn=*"],
+       "js": ["script2.js"]
+    },
+    {
+       "matches": ["https://www3.fukuchiyama.ac.jp/opac4/opac/Newly_arrived/*"],
+       "js": ["script3.js"]
+    },
+    {
+       "matches": ["https://www3.fukuchiyama.ac.jp/opac4/opac/Advanced_search/*"],
+       "js": ["script3.js"]
+    },
+    {
+       "matches": ["https://www3.fukuchiyama.ac.jp/opac4/opac/Free_word_search/*"],
+       "js": ["script3.js"]
+    }
+    ]
+   }
